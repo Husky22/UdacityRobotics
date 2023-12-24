@@ -8,3 +8,6 @@ list(APPEND CMAKE_CXX_FLAGS "${GAZEBO_CXX_FLAGS}")
 
 add_library(welcome SHARED script/welcome_message.cpp)
 target_link_libraries(welcome ${GAZEBO_LIBRARIES})
+
+add_library(model_push SHARED script/model_push.cpp)
+target_link_libraries(model_push ${GAZEBO_LIBRARIES})

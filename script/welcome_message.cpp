@@ -13,5 +13,4 @@ namespace gazebo {
 	};
 
 	GZ_REGISTER_WORLD_PLUGIN(WorldPluginMyRobot)
-
 }
