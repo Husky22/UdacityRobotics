@@ -4,6 +4,7 @@
 #include <gazebo/common/common.hh>
 #include <ignition/math/Vector3.hh>
 
+// Code taken from official Gazebo Tutorial Page https://classic.gazebosim.org/tutorials?tut=plugins_model&cat=write_plugin
 
 namespace gazebo {
 	class ModelPush: public ModelPlugin
